@@ -17,6 +17,9 @@ print(a," modulo ", b, ":", c);
 print(a," pangkat ", b, ":", d);
 print("1*3+2/2: ",e);
 print("1*(3+2)/2: ",f);
+print("\n\n");
+
+
 
 
                                 #Introduction String
@@ -33,3 +36,28 @@ print("menggunakan titik satu dua: ",c);
 print("menggunakan titik satu dua dan satu: ",d);
 print("menggunakan titik satu dua dan dua: ",e);
 print("panjang string a: ",len(a));
+print("\n\n");
+
+
+
+
+                        #Indexing And Slicing With String
+print("\t\t\tIndexing And Slicing With String");
+#indexing
+print("***********indexing***********");
+a="abcdefg"
+print("abcdefg");
+print("index ke-2: ",a[1]); # dalam komputer indeks dimulai dari 0
+print("index ke-5: ",a[4]); # dalam komputer indeks dimulai dari 0
+
+#slicing
+print("***********slicing***********");
+a="abcdefg"
+print("abcdefg");
+print("slicing index 2 sampai terakhir --> [2:]: ",a[2:]);
+print("slicing index 3 sebelum terakhir sampai terakhir --> [-3:]: ",a[-3:]);
+print("slicing index 0 sampai terakhir dengan lompatan 2 --> [::2]: ",a[::2]);
+print("slicing index 1 sampai terakhir dengan lompatan 3 --> [1::3]: ",a[1::3]);
+
+
+print("\n\n");
