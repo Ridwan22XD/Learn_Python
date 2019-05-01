@@ -46,18 +46,49 @@ print("\t\t\tIndexing And Slicing With String");
 #indexing
 print("***********indexing***********");
 a="abcdefg"
-print("abcdefg");
+print("a = abcdefg");
 print("index ke-2: ",a[1]); # dalam komputer indeks dimulai dari 0
 print("index ke-5: ",a[4]); # dalam komputer indeks dimulai dari 0
 
 #slicing
 print("***********slicing***********");
 a="abcdefg"
-print("abcdefg");
+print("a = abcdefg");
 print("slicing index 2 sampai terakhir --> [2:]: ",a[2:]);
 print("slicing index 3 sebelum terakhir sampai terakhir --> [-3:]: ",a[-3:]);
 print("slicing index 0 sampai terakhir dengan lompatan 2 --> [::2]: ",a[::2]);
 print("slicing index 1 sampai terakhir dengan lompatan 3 --> [1::3]: ",a[1::3]);
-
-
 print("\n\n");
+
+
+
+
+                            #String Properties and Methods
+print("\t\t\tString Properties and Methods");
+#String Properti
+print("***********String Properti***********");
+a="abcdefg "
+print("a = abcdefg ");
+print("Cetak a sebanyak 3 kali --> a*3: ",a*3);
+
+#Methods
+print("***********Methods***********");
+a="abcdefg "
+print("a = abcdefg ");
+print("Huruf balok a --> a.upper(): ",a.upper());
+print("Cetak a --> a: ",a);
+print("\n\n");
+
+
+
+
+
+
+
+
+
+
+
+
+
+
