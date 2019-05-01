@@ -90,12 +90,32 @@ print("\n\n");
 
                         #Print Formatting with String
 print("\t\t\tPrint Formatting with String");
-#formatting
-print("***********formatting***********");
+#formatting string
+print("***********Formatting String***********");
+print(">>1<<");
 print("This is a string {}\".format(\"INSERT\") --> ","This is a string {}".format("INSERT"));
+print(">>2<<");
 print("The {} {} {} \".format(\"fox\",\"brown\",\"quick\") --> ","The {} {} {} ".format("fox","brown","quick"));
+print(">>3<<");
+fo="fox";
+b="brown";
+q="quick";
+print("fo=fox \nb=brown \nq=quick");
+print("f\"The {fo} {b} {q} \" --> ",f"The {fo} {b} {q} ");
+print(">>4<<");
 print("The {2} {0} {1} \".format(\"fox\",\"brown\",\"quick\") --> ","The {2} {0} {1} ".format("fox","brown","quick"));
+print(">>5<<");
 print("The {b} {q} {f} \".format(f=\"fox\",b=\"brown\",q=\"quick\") --> ","The {b} {q} {f} ".format(f="fox",b="brown",q="quick"));
+#formatting float
+print("***********formatting Float***********");
+result = 314.8920887;
+print("result = 314.8920887");
+print(">>1<<");
+print("The result was {}\".format(result) -->","The result was {}".format(result));
+print(">>2<<");
+print("f\"The result was: {result}\" --> ",f"The result was: {result}");
+print(">>3<<");
+print("f\"The result was: {result:1.3f}\" --> ",f"The result was: {result:1.3f}");5
 print("\n\n");
 
 
