@@ -72,12 +72,18 @@ print("a = abcdefg ");
 print("Cetak a sebanyak 3 kali --> a*3: ",a*3);
 
 #Methods
-print("***********Methods***********");
+print("***********Method 1***********");
 a="abcdefg "
 print("a = abcdefg ");
 print("Huruf balok a --> a.upper(): ",a.upper());
 print("Cetak a --> a: ",a);
+print("***********Method 2***********");
+x="apa saja mau kamu"
+print("x = apa saja mau kamu");
+print("mengganti spasi dengan koma pada x --> x.split(): ",x.split());
+print("mengganti huruf a dengan koma pada x --> x.split(\"x\"): ",x.split("a"));
 print("\n\n");
+
 
 
 
