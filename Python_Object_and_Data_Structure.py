@@ -88,6 +88,17 @@ print("\n\n");
 
 
 
+                        #Print Formatting with String
+print("\t\t\tPrint Formatting with String");
+#formatting
+print("***********formatting***********");
+print("This is a string {}\".format(\"INSERT\") --> ","This is a string {}".format("INSERT"));
+print("The {} {} {} \".format(\"fox\",\"brown\",\"quick\") --> ","The {} {} {} ".format("fox","brown","quick"));
+print("The {2} {0} {1} \".format(\"fox\",\"brown\",\"quick\") --> ","The {2} {0} {1} ".format("fox","brown","quick"));
+print("The {b} {q} {f} \".format(f=\"fox\",b=\"brown\",q=\"quick\") --> ","The {b} {q} {f} ".format(f="fox",b="brown",q="quick"));
+print("\n\n");
+
+
 
 
 
