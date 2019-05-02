@@ -121,6 +121,81 @@ print("\n\n");
 
 
 
+                                    #List In Python
+
+print("\t\t\tList In Python");
+print("List itu muntable --> Dapat diubah")
+#Indexing
+print("\n***********Indexing***********");
+sample=["a","b","c"]
+print("sample=(\"a\",\"b\",\"c\")");
+print("sample index ke 1 --> sample[1] : ",sample[1]);
+print("sample index ke 2 sampai 3 --> sample[2::3] : ",sample[2::3]);
+#Combine 2 List
+print("\n***********Combine 2 List***********");
+sample1=["a","b","c"]
+sample2=["1","2","3"]
+print("sample1=(\"a\",\"b\",\"c\")");
+print("sample2=(\"1\",\"2\",\"3\")");
+print("gabungan sample 1 dan 2 --> sample1+sample2: ",sample1+sample2);
+#Replace List
+print("\n***********Replace List***********");
+sample1=["a","b","c"]
+sample[1] ="q"
+print("sample=(\"a\",\"b\",\"c\")");
+print("ganti nilai sample index ke-1 --> sample1[1] = \"q\" : ");
+#Adding Member List
+print("\n***********Adding Member List***********");
+sample=["a","b","c"]
+print("sample=(\"a\",\"b\",\"c\")");
+sample.append("d")
+print("Menambah anggota list sample --> sample.append(\"d\"): ",sample);
+#Delete Or Move Member List
+print("\n***********Delete Or Move Member List***********");
+print(">>Delete<<");
+sample=["a","b","c"]
+sample.pop(-1)
+print("sample=(\"a\",\"b\",\"c\")");
+print("menghapus index ke-(-1) sample --> sample.pop(-1): ",sample);
+sample=["a","b","c"]
+sample.pop(-2)
+print("sample=(\"a\",\"b\",\"c\")");
+print("menghapus index ke-(-2) sample --> sample.pop(-2): ",sample);
+print(">>Move<<");
+sample=["a","b","c"]
+pindah = sample.pop(-1)
+print("sample=(\"a\",\"b\",\"c\")");
+print("memindah index ke-(-1) sample ke pindah --> pindah = sample.pop(-1): ",pindah);
+sample=["a","b","c"]
+pindah = sample.pop(-2)
+print("sample=(\"a\",\"b\",\"c\")");
+print("memindah index ke-(-2) sample ke pindah --> pindah = sample.pop(-2): ",pindah);
+#Sort Or Reverse Member List
+print("\n***********Sort Or Reverse Member List***********");
+print(">>Sort<<");
+sample=["c","a","b"]
+sample.sort()
+print("sample=(\"c\",\"a\",\"b\")");
+print("Mengurutkan sample --> sample.sort(): ",sample);
+sample=[4,7,2]
+sample.sort()
+print("sample=(4,7,2)");
+print("Mengurutkan sample --> sample.sort(): ",sample);
+print(">>Reverse<<");
+sample=["d","g","a"]
+sample.reverse()
+print("sample=(\"d\",\"g\",\"a\")");
+print("Mengurutkan terbalik sample --> sample.reverse(): ",sample);
+sample=[4,7,2,3]
+sample.reverse()
+print("sample=(4,7,2,3)");
+print("Mengurutkan terbalik sample --> sample.reverse(): ",sample);
+
+print("\n\n");
+
+
+
+
 
 
 
