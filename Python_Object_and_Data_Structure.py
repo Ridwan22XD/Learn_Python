@@ -196,7 +196,36 @@ print("\n\n");
 
 
 
+                                   #Dictionary In Python
 
+print("\t\t\tDictionary In Python");
+#Contents
+print("\n***********Contents***********");
+dictionary={"a":1,"Me":2,2.3:3,2.4:[1,2,3,4]}
+print("dictionary = ",dictionary);
+#Mutable
+print("\n***********Mutable***********");
+print("dictionary = ",dictionary);
+dictionary["a"] = "new"
+print("dictionary --> dictionary[\"a\"] = \"new\" = ",dictionary);
+#Nested Object
+print("\n***********Nested Object***********");
+print("dictionary = ",dictionary);
+print("dictionary queue 4 index ke-2 --> dictionary[2.4][2] = ",dictionary[2.4][2]);
+#Only Call Keys Or Values
+print("\n***********Only Call Key Or Value***********");
+print("dictionary = ",dictionary);
+print("key dictionary --> dictionary.keys() = ",dictionary.keys());
+print("value dictionary --> dictionary.values() = ",dictionary.values());
+#Combination Dictionary and Method (.upper)
+print("\n***********Combination Dictionary and Method (.upper)***********");
+print("dictionary = ",dictionary)
+print("dictionary value queue 1 --> dictionary[\"a\"].upper() = ",dictionary["a"].upper())
+print("dictionary = ",dictionary)
+print("Menampung nilai key \"a\" yang sudah di upper")
+dictionary["a"] = dictionary["a"].upper()
+print("dictionary --> dictionary[\"a\"] = dictionary[\"a\"].upper() = ",dictionary)
+print("\n\n");
 
 
 
