@@ -231,5 +231,13 @@ print("\n\n");
 
 
 
-
-
+                    #Tuples With Python
+#Similiar with List
+#Immuntable -> usefull for konstan variable
+Tuples=("a","b","c","a","e","a","g")
+print("Tuples : ",Tuples)
+#Method
+print("***********Method 1 (count)***********")
+print("count alphabet \"a\" : ",Tuples.count('a'))
+print("***********Method 2 (index)***********")
+print("Position alphabet \"e\" in index : ",Tuples.index("e"))
