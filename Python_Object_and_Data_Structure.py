@@ -259,3 +259,29 @@ print("myset = {1,2,3,2,1,2,3} --> myset = ",myset)
 print("***********Method 1 (add)***********")
 myset.add(3)
 print("myset.add(3) --> myset = ",myset)
+print("\n\n");
+
+
+
+
+
+                        #Boolean
+print("\t\t\tBoolean");
+#Logic --> True / False
+#Use Capitalize to write boolean --> True / False not true / false
+#Rule
+"""
+        AND
+1. True and False --> False
+2. True and True --> True
+3. False and True --> False
+4. False and False --> True
+        OR
+1. True or True --> True
+2. True of false --> True
+3. False or True --> True
+4. False or False --> False
+"""
+print("\n\n");
+
+
