@@ -231,7 +231,8 @@ print("\n\n");
 
 
 
-                    #Tuples With Python
+                            #Tuples With Python
+print("\t\t\tTuples With Python");
 #Similiar with List
 #Immuntable -> usefull for konstan variable
 Tuples=("a","b","c","a","e","a","g")
@@ -241,3 +242,20 @@ print("***********Method 1 (count)***********")
 print("count alphabet \"a\" : ",Tuples.count('a'))
 print("***********Method 2 (index)***********")
 print("Position alphabet \"e\" in index : ",Tuples.index("e"))
+print("\n\n");
+
+
+
+
+
+                        #Sets
+print("\t\t\tSets");
+#unordered collection of unique collection
+#cant repeat same value
+myset=set()
+print(myset)
+myset = {1,2,3,2,1,2,3}
+print("myset = {1,2,3,2,1,2,3} --> myset = ",myset)
+print("***********Method 1 (add)***********")
+myset.add(3)
+print("myset.add(3) --> myset = ",myset)
